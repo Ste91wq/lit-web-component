@@ -1,0 +1,27 @@
+{
+  "name": "@ste91/my-element",
+  "private": false,
+  "version": "0.1.6",
+  "type": "module",
+  "main": "dist/my-element.js",
+  "module": "dist/my-element.js",
+  "exports": {
+    ".": "./dist/my-element.js"
+  },
+  "types": "types/my-element.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "lit": "^2.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  }
+}

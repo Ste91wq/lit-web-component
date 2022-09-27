@@ -1,0 +1,3 @@
+MY SUPER LIT COMPONENT
+
+lorem ipsum....

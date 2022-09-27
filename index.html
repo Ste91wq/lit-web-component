@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Lit + TS</title>
+    <link rel="stylesheet" href="./src/index.css" />
+    <script type="module" src="/src/my-element.ts"></script>
+    <style>
+      my-element {
+        --my-panel-primary-bg: lightgreen;
+        --my-panel-primary-color: #222;
+      }
+    </style>
+  </head>
+  <body>
+    <my-element title="MY PROFILE" icon="🕶️" opened>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. A impedit
+      provident dignissimos ratione, id laudantium animi voluptas dolores
+      voluptatem fugit consequuntur voluptatibus? Quisquam quae officia nihil
+      enim ratione doloribus quasi!
+    </my-element>
+
+    <!-- <my-element title="ANOTHER ELEMENT">
+      <input type="text" /> <button>CLICK ME</button>
+    </my-element> -->
+
+    <script>
+      const el = document.querySelector("my-element");
+      el.addEventListener("icon-click", () => {
+        console.log("do something!!");
+      });
+    </script>
+  </body>
+</html>
