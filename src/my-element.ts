@@ -10,14 +10,8 @@ export class MyElement extends LitElement {
     .title {
       background: var(--my-panel-primary-bg, #000);
       color: var(--my-panel-primary-color, white);
-      /* background: aquamarine;
-      color: #222; */
       padding: 0.8rem;
       border-radius: 1rem 1rem 0 0;
-      /* border-top-left-radius: 1rem;
-      border-top-right-radius: 1rem;
-      border-bottom-left-radius: 0rem;
-      border-bottom-right-radius: 0rem; */
       display: flex;
       justify-content: space-between;
       align-items: center;
