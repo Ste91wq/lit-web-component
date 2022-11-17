@@ -1,7 +1,7 @@
 {
   "name": "@ste91/my-element",
   "private": false,
-  "version": "0.1.6",
+  "version": "1.0.0",
   "type": "module",
   "main": "dist/my-element.js",
   "module": "dist/my-element.js",

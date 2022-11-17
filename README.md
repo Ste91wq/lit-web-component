@@ -1,3 +1,11 @@
-MY SUPER LIT COMPONENT
+# LitWebComponents
 
-lorem ipsum....
+This project was generated with `npm create vite@latest` of vite.js.
+
+## Development server
+
+Run `npm run dev` for a dev server. Navigate to `http://localhost:3000/`. The app will automatically reload if you change any of the source files.
+
+## Build
+
+Run `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory.
